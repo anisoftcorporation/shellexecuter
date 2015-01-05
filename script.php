@@ -7,7 +7,7 @@ $name = $_REQUEST['name'];
 
 $command="nohup sh ".$script_path."/".$script_name." ".$name." &";
 
-echo $command;
+//echo $command;
 $output = shell_exec($command);
 
 
